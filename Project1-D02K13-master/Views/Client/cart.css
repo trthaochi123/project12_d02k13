@@ -1,0 +1,63 @@
+.col-wrap {
+    display: table;
+    width: 100%;
+}
+
+.col {
+    display: table-cell;
+    padding: 1rem
+}
+.is-divider{
+    height: 2px;
+    display: block;
+    background-color: rgba(0, 0, 0, .1);
+    margin: 1em 0 1 em;
+    width: 100%;
+    /* max-width: 30px; */
+}
+.common{
+    border: 1px solid grey;
+    width: 380px;
+}
+.use-now {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    /* padding: 5px 20px; */
+}
+
+#discount .use-now{
+    display: flex;
+    margin-top: 3px;
+}
+
+#discount{
+    height: 25px;
+    width: 250px;
+    margin-right: 5px;
+    line-height: 2px;
+}
+
+.use-now{
+    margin-top: 4px;
+}
+
+
+.buy-now {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    width: 150px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+.buy-continue {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 5px 20px;
+    width: 180px;
+    margin-bottom: 5px;
+}
